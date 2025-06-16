@@ -288,7 +288,8 @@ footer .logoFooter{
         margin: 25px 25px;
         gap: 30px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 27vw);
+        justify-content: space-evenly;
     }
 
     .textoSobre{
