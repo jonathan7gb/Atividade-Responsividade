@@ -61,6 +61,7 @@ header{
     font-family: "Bungee", sans-serif;
     font-weight: 100;
     color: #626F47;
+    font-size: clamp(1.2em, 6vw, 2em);
 }
 
 .servicos .cards{
@@ -76,6 +77,9 @@ header{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.336);
     padding: 15px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .servicos .card .imagemCard{
@@ -92,7 +96,7 @@ header{
     font-family: "Bungee", sans-serif;
     font-weight: 100;
     margin-top: 10px;
-
+    font-size: clamp(0.6em, 3vw, 1.5em);
 }
 
 .servicos .card p{
@@ -101,6 +105,14 @@ header{
     margin-top: 5px;
     margin-bottom: 20px;
     color: #626F47;
+    font-size: clamp(0.3em, 3vw, 1em);
+}
+
+.servicos .card .distanciaBotaoTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .servicos .card button{
@@ -112,6 +124,7 @@ header{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     width: 100%;
+    font-size: clamp(0.3em, 3vw, 1em);
 }
 
 footer{
@@ -127,7 +140,7 @@ footer{
     "contato endereco"
     "redes direitos"
     "logo logo";
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 footer .logoFooter h2{
@@ -172,4 +185,67 @@ footer .logoFooter{
     display: flex;
     justify-content: center;
     grid-area: logo;
+}
+
+@media (min-width: 600px) {
+    footer{
+        text-align: center;
+    }   
+}
+
+/* Tablet */
+@media (min-width: 768px){
+    .container-hamburguer{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        list-style-type: none;
+        gap: 20px;
+        font-weight: 600;
+    }
+
+    nav ul li a{
+        color: #f4f1e6;
+        text-decoration: none;
+        font-size: 1.1em;
+    }
+
+    .textoSobre{
+    background-image: url("./Imagens/imagemSobre.png");
+    background-size: cover;
+    background-position: center 40%;
+    max-width: 100%;
+    height: 90vh;
+    color: #f4f1e6 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .servicos .cards{
+    margin: 25px 25px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .servicos .cards .card .imagemCard{
+        max-width: 100%;
+        height: clamp(150px, 25vw, 350px);
+    }
+
+    .servicos .cards .card .imagemCard img{
+        display: block;
+        height: 100%;
+        object-fit: cover;
+    }
 }
