@@ -34,7 +34,7 @@ https://pixabay.com/pt/photos/cabine-interior-abrigo-casa-6940711/
    ```bash
    cd Atividade-Responsividade
    ```
-3. Acesse a pasta do projeto e abra o arquivo `index.html` no seu navegador.
+2. Acesse a pasta do projeto e abra o arquivo `index.html` no seu navegador.
 
 ---
 <br>
