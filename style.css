@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +8,7 @@
 }
 
 html{
-    background-color: #E7F2E4;
+    background-color: #c1cabe;
 }
 
 nav{
@@ -21,7 +22,7 @@ header{
     align-items: center;
     padding: 20px 8%;
     font-family: "Rajdhani", sans-serif;
-    color: #f4f1e6;
+    color: #E7F2E4;
     background-color: #1b1f1b;
 }
 
@@ -59,10 +60,56 @@ header{
     margin-top: 5%;
     font-family: "Bungee", sans-serif;
     font-weight: 100;
-    color: #1b1f1b ;
+    color: #1b1f1b;
 }
 
 .servicos .cards{
     margin: 20px 25px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
+.servicos .card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.336);
+    padding: 15px;
+    text-align: center;
+}
+
+.servicos .card .imagemCard{
+    width: 100%;
+}
+
+.servicos .card .imagemCard img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.servicos .card h3{
+    color: #1b1f1b;
+    font-family: "Bungee", sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+
+}
+
+.servicos .card p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #1b1f1b;
+}
+
+.servicos .card button{
+    border: 0;
+    background-color: #1b1f1b;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    width: 100%;
+}
