@@ -3,7 +3,12 @@ https://pixabay.com/pt/photos/cabine-interior-abrigo-casa-6940711/
 
 ## 📂 Alguns Recursos que usei
 https://colorhunt.co/ -> Cores do Site
+<br>
 https://michalsnik.github.io/aos/ -> Biblioteca de animação de scroll
+<br>
+https://fonts.google.com/ -> Fontes
+<br>
+https://pixabay.com/ -> Galeria de Imagens
 
 ## 📂 Como Executar
 
