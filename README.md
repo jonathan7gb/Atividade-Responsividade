@@ -1,4 +1,5 @@
 https://pixabay.com/pt/photos/p%C3%B4r-do-sol-areia-praia-ilhas-folha-7133867/
+https://pixabay.com/pt/photos/cabine-interior-abrigo-casa-6940711/
 
 ## 📂 Como Executar
 
