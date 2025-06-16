@@ -39,11 +39,10 @@ https://pixabay.com/pt/photos/cabine-interior-abrigo-casa-6940711/
 ---
 <br>
 
-# Prática Guiada e Desafios
+# 🧪 Prática Guiada e Desafios
 
 Aprender responsividade exige mais do que teoria — é preciso **experimentar, testar e errar** para compreender como os elementos se comportam em diferentes telas. Esta seção oferece **exercícios práticos guiados** e **desafios crescentes**, ideais para consolidar o conteúdo.
 
----
 
 ## 🎯 Objetivos da prática
 
@@ -51,8 +50,6 @@ Aprender responsividade exige mais do que teoria — é preciso **experimentar, 
 - Usar unidades responsivas como `rem`, `%`, `clamp()` e `vw`
 - Criar componentes que se reorganizam (cards, menus, formulários)
 - Testar visualmente o layout em diferentes dispositivos
-
----
 
 ## 🧪 Prática Guiada – Página Responsiva Simples
 
