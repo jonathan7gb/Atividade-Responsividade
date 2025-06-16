@@ -113,3 +113,58 @@ header{
     font-weight: 500;
     width: 100%;
 }
+
+footer{
+    background-color: #626F47;
+    padding: 30px 20px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    gap: 20px;
+    color: #f4f1e6;
+    grid-template-areas: 
+    "contato endereco"
+    "redes direitos"
+    "logo logo";
+}
+
+footer .logoFooter h2{
+    font-family: "Rajdhani", sans-serif;
+    color: #f4f1e6;
+    font-size: 1.6em;
+}
+
+footer .contato{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    grid-area: contato;
+}
+
+footer .endereco{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    grid-area: endereco;
+}
+
+footer .direitosAutorais{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    grid-area: direitos;
+}
+
+footer .redesSociais{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    grid-area: redes;
+}
+
+footer span{
+    font-weight: 600;
+}
+
+footer .logoFooter{
+    display: flex;
+    justify-content: center;
+    grid-area: logo;
+}
