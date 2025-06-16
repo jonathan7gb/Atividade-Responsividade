@@ -1,7 +1,7 @@
 <h1 align="center">📎 Link do Resultado</h1>
 <p align="center">https://atividade-responsividade-two.vercel.app/</p>
-<br>
 
+<br>
 
 ## 📎 Alguns Recursos que usei
 https://colorhunt.co/ -> Cores do Site
@@ -12,9 +12,13 @@ https://fonts.google.com/ -> Fontes
 <br>
 https://pixabay.com/ -> Galeria de Imagens
 
+<br>
+
 ## 🎨 Algumas fotos que usei do Pixabay
 https://pixabay.com/pt/photos/p%C3%B4r-do-sol-areia-praia-ilhas-folha-7133867/
 https://pixabay.com/pt/photos/cabine-interior-abrigo-casa-6940711/
+
+<br>
 
 ## 📂 Como Executar
 
