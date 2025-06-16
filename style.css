@@ -121,7 +121,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr auto;
-    gap: 20px;
+    gap: 10px;
     color: #f4f1e6;
     grid-template-areas: 
     "contato endereco"
