@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Responsivo</title>
     <link rel="stylesheet" href="style.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -40,7 +43,7 @@
 
         <section class="servicos">
             <h1>SERVIÇOS E DICAS</h1>
-            <div class="cards">
+            <div class="cards" data-aos="fade-up">
                 <div class="card">
                     <div class="imagemCard">
                         <img src="./Imagens/abrigo.jpg" alt="Imagem do Abrigo">
@@ -98,6 +101,12 @@
             </div>
         </section>
     </main>
+
+    <footer></footer>
+
+    <script> 
+        AOS.init();
+    </script>
 
 </body>
 </html>
